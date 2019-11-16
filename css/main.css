@@ -1,0 +1,189 @@
+/***top styles ***/
+header {
+	font-family: 'Roboto Slab', serif;
+	background: url('../img/hero-image.png');
+	height:700px;
+	width:100%;
+	background-size:cover;
+}
+
+header h1 {
+	color:#bdbf09;
+	height:20px;
+	text-align:center;
+	/*padding:300px;*/
+	margin:300px;
+	font-size:42px;
+	font-weight: 500;
+	width:900px;
+}
+
+/***base styles***/
+
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #bdbf09;
+}
+
+#work #about #contact {
+	height:600px;
+}
+ul li {
+	display: inline-block;
+	float:left;
+	margin-right:20px;
+}
+ul li a {
+	color:#095256;
+	font-size:30px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding-left:20px;
+}
+
+/***end of base***/
+
+h1 span {
+	color:#095256;
+	line-height:20px;
+	font-weight:normal;
+	font-size:36px;
+}
+
+/*** Portfolio ***/
+
+#work p{
+	color:#095256;
+	width:800px;
+}
+
+#work {
+	background:url('..img/white.png');
+	height:1000px;
+}
+
+#work h2 {
+	color:#095256;
+	font-size:32px;
+	font-weight:bold;
+}
+
+.content-wrapper {
+	clear:both;
+}
+
+img {
+	float:left;
+	margin-left:75px;
+	margin-bottom:100px;
+}
+
+h3 span p{
+	color:#bdbf09;
+}
+
+h2 span {
+	color:black;
+}
+
+h3 span {
+	color:#bdbf09;
+	width:600px;
+	margin:-40px;
+}
+
+.half-width {
+	width:700px;
+	float:left;
+}
+
+/*** ABOUT ME ***/
+
+#story {
+	background: url('../img/story.png');
+	height:600px;
+	padding:0 175px;
+}
+
+#story h2{
+	color:white;
+	font-size:30px;
+	margin-right:80px;
+}
+
+#story p{
+	color:white;
+	line-height:28px;
+}
+
+#story p span {
+	font-weight:bold;
+	font-size:20px;
+}
+
+#story img {
+	border:double 7px white;
+	margin-right:150px;
+}
+
+/*** END OF ABOUT ME***/
+
+
+/*** CONNECT ***/
+
+.flex {
+	display:flex;
+}
+
+#connect {
+	background:url('../img/contact-background.png');
+	color:white;
+	height:400px;
+	width:100%;
+}
+
+#connect h2{
+	margin-right:80px;
+}
+
+#connect p {
+	text-align:center;
+	color:white;
+}
+
+#connect h3 {
+	text-align:center;
+}
+
+#connect ul li {
+	display:inline-block;
+	margin:10px;
+	padding:0px;
+}
+
+#connect img {
+	width:65px;
+	margin:0px;
+	padding:0px;
+}
+
+/*** END OF CONNECT ***/
+
+/***FOOTER***/
+
+.third-width {
+	width:33%;
+	text-align:center;
+	height:200px;
+	padding-right:100px;
+}
+
+h3 {
+	margin:40px;
+}
+
+.full-width {
+	text-align: center;
+	padding:20px;
+	color:white;
+}
