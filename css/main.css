@@ -57,6 +57,10 @@ h1 span {
 	width:800px;
 }
 
+#work img {
+	border: 5px bold red;
+}
+
 #work {
 	background:url('..img/white.png');
 	height:1000px;
