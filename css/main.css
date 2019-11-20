@@ -68,6 +68,10 @@ h1 span {
 	font-weight:bold;
 }
 
+.rogue .jubilee {
+	border:5px bold red;
+}
+
 .content-wrapper {
 	clear:both;
 }
